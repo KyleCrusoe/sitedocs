@@ -1,0 +1,236 @@
+
+*{
+	
+
+}
+
+
+body {
+	
+	background-color: #defffc;
+}
+
+footer{
+	background-color: grey;
+}
+
+
+.container{
+	height: 100%;
+
+}
+
+
+
+.center {
+	float: left;
+	text-align: center;
+	border: #007C94;
+	border-style: solid;
+	border-width: 12px;
+	border-radius: 25px;
+	
+	transition: height 0.66s ease-out;
+
+
+
+	transform: translateY(50%);
+
+
+	
+}
+
+.background-image{
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	
+	float: right;
+
+	border: #007C94;
+	border-style: solid;
+	border-width: 1px;
+	
+	
+
+	z-index: 10;
+
+	margin-top: -2px;
+	
+}
+
+.edo{
+	font-family: EdoFont;
+	font-weight:normal;
+	font-style:normal;
+	font-size: 12vmin;
+	color: #AA2542;
+	text-shadow: 1px 1px black;
+	max-width: 70%;
+	min-width: 70%;
+
+	float: left;
+
+	position: absolute;
+	top: 0;
+	padding-left: 20%;
+	
+
+
+}
+
+
+
+
+.navigation {
+	
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #AA2542;
+	display: block;
+	margin: 0;
+	
+
+	font-size: 3vmin;
+	text-shadow: 1px 1px black;
+
+	z-index: 20;
+
+	
+	margin-top: .5em;
+	
+
+
+	
+
+	
+}
+
+.food-drink{
+
+	display: inline-block;
+	float: left;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 25%;
+
+	padding-bottom: .5em;
+	margin-left: -2px;
+	padding-top: .52em;
+
+	background-color: #007C94;
+	
+	margin-bottom: -1px; /* Covering why line at bottom of image */
+	
+}
+.recreation{
+
+	display: inline-block;
+	float: left;
+	position: fixed;
+	bottom: 0;
+	left: 24%;
+
+	width: 25%;
+	padding-bottom: .5em;
+	padding-top: .52em;
+	
+	background-color: #007C94;
+	border-top-right-radius: 25px;
+
+	margin-bottom: -1px; /* Covering why line at bottom of image */
+
+	
+	
+
+}
+
+.landmarks{
+
+	display: inline-block;
+	float: left;
+	position:fixed;
+	bottom: 0;
+	left: 51%;
+	width: 25%;
+
+	padding-bottom: .5em;
+	padding-top: .52em;
+	
+
+	background-color: #007C94;
+	border-top-left-radius: 25px;
+
+	margin-bottom: -1px; /* Covering why line at bottom of image */
+
+	
+}
+
+.night-life{
+	display: inline-block;
+	float: left;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+
+	width: 25%;
+	padding-bottom: .5em;
+	padding-top: .52em;
+	margin-right: -2px;
+	
+	margin-bottom: -1px; /* Covering why line at bottom of image */
+
+	background-color: #007C94;
+
+}
+
+
+/* Page Styles */
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+/* Link Styles */
+
+a:link {color:#AA2542;}         /* Unvisited link  */
+a:visited {color:#AA2542;} /* Visited link    */
+a:hover {color:#AA2542;}   /* Mouse over link */
+a:active {color:#AA2542;}  /* Selected link   */
+
+a:link {
+	text-decoration: none;
+  }
+
+
+
+
+
+
+
+@font-face{
+	
+	font-family: EdoFont;
+	src: url("font/EdoFont.woff")
+}
+
+
+@media (min-width: 769px){
+	.container {
+	max-width: 70%;
+	margin: 0 auto;
+	max-width: 0 auto;
+	}
+}
+
+@media (min-width: 1112px){
+	.container {
+		max-width: 55%;
+		margin: 0 auto;
+		max-width: 0 auto;
+
+	}
+
+}
